@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"firebase": "^9.22.1",
+		"sweetalert2": "^11.7.10",
 		"xlsx": "^0.18.5"
 	}
 }
