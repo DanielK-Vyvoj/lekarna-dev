@@ -50,7 +50,7 @@
      </div>
    </div>
    <nav class="flex-grow pb-4 pr-4 pl-6 hidden md:block">
-    <a class="block px-4 py-2 mt-8 mb-2 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700" href="/admin">Pridani po domluve</a>
+    <a class="block px-4 py-2 mt-8 mb-2 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700" href="/admin/import-excel">Import Excel</a>
     <a class="block px-4 py-2 mt-8 mb-2 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700" href="/admin">Pridani po domluve</a>
     <a class="block px-4 py-2 mt-8 mb-2 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700" href="/admin">Pridani po domluve</a>
     <a class="block px-4 py-2 mt-8 mb-2 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-700" href="/admin">Pridani po domluve</a>
