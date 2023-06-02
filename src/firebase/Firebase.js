@@ -3,17 +3,14 @@ import { getAuth } from "firebase/auth";
 import { getDatabase} from "firebase/database";
 import { getStorage } from "firebase/storage";
 
-
-
 const firebaseConfig = {
-        apiKey: "AIzaSyCVJtbmo3WMhcWRWaTawhhLCQEN4IV-BNo",
-        authDomain: "dental-adel.firebaseapp.com",
-        projectId: "dental-adel",
-        storageBucket: "dental-adel.appspot.com",
-        messagingSenderId: "671673253526",
-        appId: "1:671673253526:web:597487fc90fa8b88748cb7"
+  apiKey: "AIzaSyBceS3KJeumbzW4VIy-GzaxtVT-jPN4Pkk",
+  authDomain: "dev-lekarny.firebaseapp.com",
+  projectId: "dev-lekarny",
+  storageBucket: "dev-lekarny.appspot.com",
+  messagingSenderId: "798781875157",
+  appId: "1:798781875157:web:677b988d4eaec38887135c"
 };
-
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
