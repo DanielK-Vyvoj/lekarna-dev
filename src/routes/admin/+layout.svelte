@@ -21,7 +21,7 @@
         // Skrytí spinneru po 5 sekundách
         setTimeout(() => {
           isPageLoading = false;
-        }, 2000);
+        }, 4000);
       });
       return () => unsubscribe();
     });
@@ -39,7 +39,7 @@
   <!-- Nová část s spinnerem -->
   {#if isPageLoading}
     <div class="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-white z-50">
-      <div class="animate-spin rounded-full h-32 w-32 border-b-2 border-pink-500"></div>
+      <div class="animate-spin rounded-full h-32 w-32 border-b-2 border-green-500"></div>
     </div>
   {/if}
   
